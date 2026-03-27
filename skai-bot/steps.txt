@@ -1,0 +1,15 @@
+2 python --version
+
+   3 uv init .
+   4 uv venv
+   5 .venv\Scripts\activate
+   6 uv add -r requirements.txt
+   7 streamlit run app.py
+
+   8 history
+   9 git init
+  10 git add .
+  11 git commit -m "added"
+  12 git branch -M main
+  13 git remote add origin https://github.com/<repo-name>/sik-bot.git
+  14 git push -u origin main
